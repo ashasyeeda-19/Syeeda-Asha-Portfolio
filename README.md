@@ -57,7 +57,7 @@ https://ashasyeeda-19.github.io/Syeeda-Asha-Portfolio/
 
 ## 🎨 Figma Design
 
-Add your Figma share link here.
+https://www.figma.com/design/SphJLZwJplxhoErLfR0on5/Untitled?node-id=0-1&t=NdnknPvqRPd85Vgq-1
 
 ## 👩‍💻 Author
 
