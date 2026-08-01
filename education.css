@@ -1,0 +1,155 @@
+body{
+    background:#031a31;
+    color:#fff;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:60px 0 100px;
+}
+
+.title{
+    text-align:center;
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:60px;
+}
+
+.title span{
+    color:#00e5ff;
+}
+
+.timeline{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:35px;
+}
+
+.edu-card{
+    position:relative;
+    background:#0d2742;
+    border:1px solid rgba(0,229,255,.25);
+    border-radius:25px;
+    padding:45px 35px;
+    transition:.3s;
+    overflow:visible;
+}
+
+.edu-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #00e5ff;
+}
+
+.year{
+    display:inline-block;
+    background:#00e5ff;
+    color:#031a31;
+    padding:8px 18px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.edu-card h2{
+    font-size:38px;
+    margin-bottom:18px;
+}
+
+.edu-card p{
+    font-size:22px;
+    line-height:1.7;
+    color:#ddd;
+}
+
+.icon{
+    position:absolute;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#00e5ff;
+    color:#031a31;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    top:50%;
+    transform:translateY(-50%);
+    box-shadow:0 0 20px #00e5ff;
+}
+
+.left .icon{
+    left:-40px;
+}
+
+.right .icon{
+    right:-40px;
+}
+.sidebar{
+    position:fixed;
+    right:30px;
+    top:50%;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    z-index:1000;
+}
+
+.sidebar a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+    color:#fff;
+}
+
+.sidebar i{
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#143552;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    transition:.3s;
+}
+
+.sidebar span{
+    opacity:0;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.sidebar a:hover span{
+    opacity:1;
+}
+
+.sidebar a:hover i{
+    background:#00e5ff;
+    color:#031a31;
+    box-shadow:0 0 18px #00e5ff;
+}
+.back{
+    text-align:center;
+    margin-top:60px;
+}
+
+.back-btn{
+    display:inline-block;
+    padding:15px 40px;
+    border:2px solid #00e5ff;
+    color:#fff;
+    text-decoration:none;
+    border-radius:35px;
+    transition:.3s;
+}
+
+.back-btn:hover{
+    background:#00e5ff;
+    color:#031a31;
+    box-shadow:0 0 20px #00e5ff;
+}

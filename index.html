@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asha Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <div class="logo">
+            PORT<span>FOLIO</span>
+        </div>
+
+        <nav>
+            <a href="about.html">ABOUT</a>
+            <a href="ACHIEVEMENTS.html">ACHIEVEMENTS</a>
+            <a href="#">HOME</a>
+            <a href="EDUCATION.html">EDUCATION</a>
+            <a href="PUBLICATIONS.html">PUBLICATIONS</a>
+            
+        </nav>
+
+       <a href="cv/Asha_CV.pdf" target="_blank" class="cv-btn">
+    DOWNLOAD CV
+    <i class="fa-solid fa-download"></i>
+</a>
+    </header>
+
+    <section class="hero">
+
+        <div class="image-section">
+
+            <div class="image-circle">
+                <img src="asha.png.png" alt="profile">
+            </div>
+
+        </div>
+
+        <div class="content">
+
+            <h3>HELLO, I'M</h3>
+
+            <h1>ASHA</h1>
+
+            <h2>FRONTEND DEVELOPER</h2>
+
+            <p class="subtitle">
+                Student . Web Developer . Creative Thinker
+            </p>
+
+            <p class="description">
+                I'm a Computer Science student who loves creating
+                functional and user friendly websites.
+            </p>
+
+            <div class="social-icons">
+
+    <!-- Email -->
+    <a href="mailto:ashasyeeda@gmail.com">
+        <i class="fa-solid fa-envelope email"></i>
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://facebook.com/share/1FMxqVtJDf/" 
+    target="blank">
+        <i class="fa-brands fa-facebook facebook"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/syeedaasha"
+     target="_blank">
+        <i class="fa-brands fa-instagram instagram"></i>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com/in/yourusername" 
+    target="_blank">
+        <i class="fa-brands fa-linkedin linkedin"></i>
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/yourusername"
+     target="_blank">
+        <i class="fa-brands fa-github github"></i>
+    </a>
+
+</div>
+<div class="buttons">
+
+    <a href="https://linkedin.com/in/yourusername"
+       target="_blank"
+       class="hire-btn">
+        HIRE ME
+    </a>
+
+   <div class="contact-dropdown">
+
+    <a href="#" class="contact-btn" id="contactBtn">
+        CONTACT ME
+    </a>
+
+    <div class="contact-menu" id="contactMenu">
+
+        <a href="mailto:ashasyeeda@gmail.com">
+            Email
+        </a>
+
+        <a href="https://facebook.com/share/1FMxqVtJDf/"
+           target="_blank">
+            Facebook
+        </a>
+
+        <a href="https://instagram.com/syeedaasha/"
+           target="_blank">
+            Instagram
+        </a>
+
+    </div>
+
+</div>
+<a href="projects.html"
+class="contact-btn project-btn">>
+PROJECTS
+</a>
+</div>
+
+</div> <!-- contact-dropdown -->
+
+</div> <!-- buttons -->
+
+</div> <!-- content -->
+
+</section>
+
+</div> 
+
+<script>
+const btn = document.getElementById("contactBtn");
+const menu = document.getElementById("contactMenu");
+
+btn.addEventListener("click", function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+});
+
+menu.addEventListener("click", function(e) {
+    e.stopPropagation();
+});
+
+document.addEventListener("click", function() {
+    menu.style.display = "none";
+});
+</script>
+
+</body>
+</html>
