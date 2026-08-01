@@ -18,8 +18,7 @@ This is my personal portfolio website developed using HTML, CSS, and JavaScript.
 - HTML5
 - CSS3
 - JavaScript
-- EmailJS
--Font Awesome
+- Font Awesome
 
 ## 📂 Project Structure
 
